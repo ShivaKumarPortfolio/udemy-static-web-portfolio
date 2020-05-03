@@ -1,0 +1,158 @@
+/* Custom styles*/
+
+* {
+    margin: 0;
+    text-align: center;
+}
+
+
+/*heading section*/
+
+.heading {
+    background-color: #f4eeff;
+    padding: 3rem 0 0 0;
+    text-align: center;
+    position: relative;
+    font-family: 'Merriweather', serif;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 4rem;
+    right: 28rem;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 10em;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+
+.heading>p {
+    font-weight: normal;
+}
+
+.lh {
+    line-height: 4rem;
+    color: #66bfbf;
+}
+
+
+/** middle-container**/
+
+.middle-container {
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 30%;
+    line-height: 2;
+}
+
+.into-para {
+    text-align: left;
+    color: #40514E;
+}
+
+hr {
+    border: none;
+    border-top: 8px dotted #EAF6F6;
+    margin: 40px 42%;
+    line-height: 2;
+}
+
+.website-pic,
+.coding-pic {
+    width: 20%;
+}
+
+.website-pic {
+    float: left;
+}
+
+.coding-pic {
+    float: right;
+}
+
+.gap-right {
+    padding-right: 30%;
+}
+
+.gap-left {
+    padding-left: 30%;
+}
+
+.skill-row {
+    line-height: 2;
+    padding: 10px 0;
+}
+
+
+/**** get in touch section **/
+
+.btn {
+    text-decoration: none;
+    border: 0px solid #424874;
+    background-color: #424874;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #06b1b1;
+}
+
+.contact-me {
+    line-height: 2;
+}
+
+
+/*section*/
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid rgb(245, 86, 24);
+    border-radius: 100%;
+    background-color: coral;
+}
+
+
+/* .bg-contact {
+    background-color: #a6b1e1;
+    padding: 4rem 0;
+} */
+
+.bg-bottom {
+    background-color: #424874;
+    padding: 4rem 0;
+}
+
+.footer-link {
+    color: #11999e;
+    text-decoration: none;
+    padding: 5px 18px;
+}
+
+.bottom-container {
+    line-height: 2;
+}
+
+.copyright,
+.copyright a {
+    text-decoration: none;
+    color: #EAF6F6;
+}
